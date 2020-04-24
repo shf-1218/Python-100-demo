@@ -1,0 +1,27 @@
+# encoding: utf-8
+"""
+@version: 1.0
+@author: 
+@file: print_PingAndPong
+@time: 2020-04-02 12:46
+"""
+
+from multiprocessing import Process
+from time import time, sleep
+
+counter = 0
+
+
+def sub_task(string):
+    global counter
+    while counter < 10:
+        print(string, end='', flush=True)
+        counter += 1
+        sleep(0.01)
+def main():
+    Process(target=sub_task, args=('Ping', )).start()
+    Process(target=sub_task, args=('Pong', )).start()
+
+
+if __name__ == '__main__':
+    main()

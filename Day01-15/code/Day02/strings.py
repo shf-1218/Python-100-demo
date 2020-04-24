@@ -19,7 +19,7 @@ print('字符串是不是以hello结尾', str1.endswith('hello'))
 print('字符串是不是以感叹号开头', str1.startswith('!'))
 print('字符串是不是以感叹号结尾', str1.endswith('!'))
 
-str2 = '-hongfei.shent'
+str2 = '-hongfei.Shen'
 str3 = str1.title() + '' + str2.lower()
 print(str3)
 

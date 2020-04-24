@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 # @Time  : 2019/12/26 11:26
 # @Author: hongfei.shen
-# @File  : number_game.py
+# @File  : guess.py
 '''
 猜数字游戏
 计算机出一个1~100之间的随机数由人来猜

@@ -4,7 +4,7 @@
 # @Author: hongfei.shen
 # @File  : operator.py
 '''
-运算符的使用
+赋值运算符和复合赋值运算符
 '''
 
 a = 5
@@ -16,8 +16,11 @@ a += b
 a -= c
 a *= d
 a /= e
-
 print('a = ', a)
+
+
+
+'''比较、逻辑和算身份运算符的使用'''
 flag1 = 3 > 2
 flag2 = 3 < 1
 flag3 = flag1 and flag2

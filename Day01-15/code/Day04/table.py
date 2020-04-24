@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 # @Time  : 2019/12/26 11:33
 # @Author: hongfei.shen
-# @File  : multiplication_table.py
+# @File  : table.py
 
 '''
 输出乘法口诀表(九九表)
